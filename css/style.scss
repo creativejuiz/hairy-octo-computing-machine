@@ -11,3 +11,381 @@
 @import "../vendor/knacss/sass/_10-booleans"; // skip links and hyphens
 @import "../vendor/knacss/sass/_12-ie"; // IE6, IE7, IE8 support
 @import "../vendor/knacss/sass/_13-styling"; // minor stylings
+
+
+@font-face {
+	font-family: "merriweather";
+	src: url('/kiwiparty/css/fonts/merriweather-regular.eot');
+	src: url('/kiwiparty/css/fonts/merriweather-regular.eot?#iefix') format('embedded-opentype'),
+		 url('/kiwiparty/css/fonts/merriweather-regular.woff2') format('woff2'),
+		 url('/kiwiparty/css/fonts/merriweather-regular.woff') format('woff'),
+		 url('/kiwiparty/css/fonts/merriweather-regular.ttf') format('truetype'),
+		 url('/kiwiparty/css/fonts/merriweather-regular.svg#merriweatherregular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: "merriweather";
+	src: url('/kiwiparty/css/fonts/merriweather-italic.eot');
+	src: url('/kiwiparty/css/fonts/merriweather-italic.eot?#iefix') format('embedded-opentype'),
+		 url('/kiwiparty/css/fonts/merriweather-italic.woff2') format('woff2'),
+		 url('/kiwiparty/css/fonts/merriweather-italic.woff') format('woff'),
+		 url('/kiwiparty/css/fonts/merriweather-italic.ttf') format('truetype'),
+		 url('/kiwiparty/css/fonts/merriweather-italic.svg#merriweatheritalic') format('svg');
+	font-weight: 400;
+	font-style: italic;
+
+}
+
+@font-face {
+	font-family: "merriweather";
+	src: url('/kiwiparty/css/fonts/merriweather-bold.eot');
+	src: url('/kiwiparty/css/fonts/merriweather-bold.eot?#iefix') format('embedded-opentype'),
+		 url('/kiwiparty/css/fonts/merriweather-bold.woff2') format('woff2'),
+		 url('/kiwiparty/css/fonts/merriweather-bold.woff') format('woff'),
+		 url('/kiwiparty/css/fonts/merriweather-bold.ttf') format('truetype'),
+		 url('/kiwiparty/css/fonts/merriweather-bold.svg#merriweatherbold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: "merriweather";
+	src: url('/kiwiparty/css/fonts/merriweather-bolditalic.eot');
+	src: url('/kiwiparty/css/fonts/merriweather-bolditalic.eot?#iefix') format('embedded-opentype'),
+		 url('/kiwiparty/css/fonts/merriweather-bolditalic.woff2') format('woff2'),
+		 url('/kiwiparty/css/fonts/merriweather-bolditalic.woff') format('woff'),
+		 url('/kiwiparty/css/fonts/merriweather-bolditalic.ttf') format('truetype'),
+		 url('/kiwiparty/css/fonts/merriweather-bolditalic.svg#merriweatherbold_italic') format('svg');
+	font-weight: 700;
+	font-style: italic;
+
+}
+
+@font-face {
+	font-family: "source_sans_pro";
+	src: url('/kiwiparty/css/fonts/sourcesanspro-regular.eot');
+	src: url('/kiwiparty/css/fonts/sourcesanspro-regular.eot?#iefix') format('embedded-opentype'),
+		 url('/kiwiparty/css/fonts/sourcesanspro-regular.woff2') format('woff2'),
+		 url('/kiwiparty/css/fonts/sourcesanspro-regular.woff') format('woff'),
+		 url('/kiwiparty/css/fonts/sourcesanspro-regular.ttf') format('truetype'),
+		 url('/kiwiparty/css/fonts/sourcesanspro-regular.svg#source_sans_proregular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: "source_sans_pro";
+	src: url('/kiwiparty/css/fonts/sourcesanspro-semibold.eot');
+	src: url('/kiwiparty/css/fonts/sourcesanspro-semibold.eot?#iefix') format('embedded-opentype'),
+		 url('/kiwiparty/css/fonts/sourcesanspro-semibold.woff2') format('woff2'),
+		 url('/kiwiparty/css/fonts/sourcesanspro-semibold.woff') format('woff'),
+		 url('/kiwiparty/css/fonts/sourcesanspro-semibold.ttf') format('truetype'),
+		 url('/kiwiparty/css/fonts/sourcesanspro-semibold.svg#source_sans_prosemibold') format('svg');
+	font-weight: 500;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: "kiwiparty";
+	src:url('/kiwiparty/css/fonts/kiwiparty.eot?iejfmu');
+	src:url('/kiwiparty/css/fonts/kiwiparty.eot?#iefixiejfmu') format('embedded-opentype'),
+		url('/kiwiparty/css/fonts/kiwiparty.woff?iejfmu') format('woff'),
+		url('/kiwiparty/css/fonts/kiwiparty.ttf?iejfmu') format('truetype'),
+		url('/kiwiparty/css/fonts/kiwiparty.svg?iejfmu#kiwiparty') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+	display: inline-block;
+	font-family: "kiwiparty";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pepins:before { content: "\e600"; }
+.icon-medal:before { content: "\e601"; }
+.icon-alert:before { content: "\e602"; }
+.icon-check:before { content: "\f03a"; }
+.icon-checklist:before { content: "\f076"; }
+.icon-mail:before { content: "\f03b"; }
+.icon-images:before { content: "\e90e"; }
+.icon-camera:before { content: "\e90f"; }
+.icon-headphones:before { content: "\e910"; }
+.icon-film:before { content: "\e913"; }
+.icon-mic:before { content: "\e91e"; }
+.icon-ticket:before { content: "\e939"; }
+.icon-location:before { content: "\e947"; }
+.icon-clock:before { content: "\e94e"; }
+.icon-bubbles:before { content: "\e96c"; }
+.icon-bubbles2:before { content: "\e96f"; }
+.icon-airplane:before { content: "\e9af"; }
+.icon-clipboard:before { content: "\e9b8"; }
+.icon-google-plus:before { content: "\ea88"; }
+.icon-facebook:before { content: "\ea8c"; }
+.icon-twitter:before { content: "\ea91"; }
+.icon-paperplane:before { content: "\e603"; }
+.icon-calendar:before { content: "\e604"; }
+
+
+// generic classes
+
+.inside {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.grid3 {
+	width: 100%;
+	margin: 0 0 0 -25px;
+	& > * {
+		padding: 0 25px;
+	}
+	& > :last-child {
+		padding-right: 0;
+	}
+}
+
+.title {
+	font-family: $font-stack-headings;
+	font-style: italic;	
+}
+
+
+
+// header
+.main-header {
+
+	margin-top: 50px;
+	
+	.summary {
+		@include rem(1.4);
+		color: $darkgray;
+		strong {
+			color: $primary-color;
+		}
+	}
+
+}
+
+.envent-date-place {
+	text-align: center;
+}
+
+.header-cal,
+.event-date,
+.event-place {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.event-place {
+	position: relative;
+	width: 100%;
+	@extend .title;
+	font-weight: 700;
+	color: $middleuppergray;
+
+	&:before,
+	&:after {
+		position: absolute;
+		left: 50%; top: 50%;
+  		display: block; /* IE fix */
+  		content: "";
+  		width: 40px;
+  		border-bottom: 1px solid CurrentColor;
+  		opacity: .5;
+	}
+	&:before {
+		margin-left: -95px;
+	}
+	&:after {
+		margin-left: 58px;
+	}
+}
+
+.header-cal {
+	margin-right: 10px;	
+}
+
+.event-date {
+	color: $middleuppergray;
+	margin-top: 8px;
+	line-height: 1;
+	@include rem(2.1);
+	
+	.ed-day {
+		margin-top: 2px;
+		color: $secondary-color;
+		font-weight: 700;
+		@include rem(2.75);
+	}
+	.ed-year {
+		@include rem(4);
+	}
+	
+	span {
+		display: block;
+	}
+}
+
+
+.main-nav {
+
+	margin-top: 1.75em;
+	background: $darkgray;
+	
+	a {
+		padding: .85em 1.2em;
+		color: white;
+		text-decoration: none;
+		font-weight: 500;
+		@include rem(1.9);
+		
+		&:before {
+			margin-right: .45em;
+			vertical-align: -0.1em; 
+			@include rem(2.25);
+			color: $gray;
+		}
+	}
+
+	.alt-nav {
+		float: right;
+		background: $secondary-color;
+		
+		a:before {
+			color: white;
+		}
+	}
+}
+
+[class^="home-quote"] {
+	@extend .title;
+}
+.home-quote-title.home-quote-title {
+	margin-top: 2em;
+	@include rem(2.55);
+}
+.home-quote {
+	color: $gray;
+	padding-left: 0;
+	@include rem(4);	
+	&:before {
+		display: none;
+	}
+	strong {
+		color: $primary-color;
+	}
+}
+
+.home-couple-btns {
+	margin-top: 4em;	
+}
+
+[class^="btn-"] {
+	display: inline-block;
+	vertical-align: top;
+	padding: .75em 2em;
+	text-decoration: none;
+	color: white;
+	background: $gray;
+	font-weight: 500;
+	@include rem(1.75);
+	
+	&:before {
+		margin-right: 8px;
+		vertical-align: -3px; 
+		@include rem(2.2);
+	}
+}
+[class^="btn-"] + [class^="btn-"] {
+	margin-left: 1em;
+}
+.btn-primary {
+	background: $primary-color;
+}
+.btn-secondary {
+	background: $secondary-color;
+}
+
+.twitter-cta {
+
+	margin-top: 3em;
+	color: $twitter;
+	
+	a {
+		color: inherit;
+	}
+	&:before {
+		margin-right: .4em;
+		@include rem(3.8);
+		vertical-align: -0.25em; 
+	}
+}
+
+.flickr-photos {
+	margin: 4em 0;
+	padding-top: 225px;
+	background: url("../../img/flickr-photos.jpg") scroll 0 0 repeat-x;
+	
+	p {
+		margin-top: 0;
+	}
+
+}
+
+.photo-title {
+	@extend .title;
+	font-weight: 700;
+}
+
+.photo-flickr {
+	a {
+		@extend .title;
+		@include rem(1.5);
+		color: $gray;
+		text-decoration: none;
+		font-weight: 700;
+	}
+
+}
+.flickr {
+	position: relative;
+	padding-right: 52px;
+	
+	&:before,
+	&:after {
+		content: "";
+		position: absolute;
+		right: 20px; top: .375em;
+		width: 10px; height: 10px;
+		background: $flickr-pink;
+		border-radius: 50%;
+	}
+	&:before {
+		background: $flickr-blue;
+		right: 32px;
+	}
+}
+
+
+.main-news {
+	background: #F8F8F8;
+}

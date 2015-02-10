@@ -15,29 +15,92 @@
 </head>
 <body>
 
-	<header id="header" role="banner" class="line pam">
-			<a href="http://kiwiparty.fr" title="KiwiParty by Alsacréations"><img src="img/logo-kiwiparty.svg" alt="Logo KiwiParty"></a>
+	<header id="header" role="banner" class="main-header line pam">
+		<div class="inside grid">
+			<div class="grid3" itemscope itemtype="http://schema.org/Event">
+				<a itemprop="url" href="http://kiwiparty.fr" title="KiwiParty by Alsacréations"><img itemprop="image" src="img/logo-kiwiparty.svg" alt="Logo KiwiParty"></a>
+				<div class="envent-date-place">
+					<img src="img/calendar.svg" height="97" width="97" alt="" class="header-cal">
+					<time datetime="2015-06-19T09:00:00Z" itemprop="startDate" class="event-date">
+						Vendredi
+						<span class="ed-day">19 juin</span>
+						<span class="ed-year">2015</span>
+					</time>
 
-		<nav id="navigation" role="navigation">
-			<ul class="pam">
-				<li class="pam inbl">Le lieu</li>
-				<li class="pam inbl">Le Programme</li>
-				<li class="pam inbl">Nos sponsors</li>
-				<li class="pam inbl">Inscription</li>
-			</ul>
-		</nav>
+					<meta itemprop="doorTime" content="2015-06-19T08:30:00Z">
 
-		<div class="intro">
-			<p>La KiwiParty est un événement gratuit à but non-lucratif organisé par l’agence web strasbourgeoise Alsacréations réunissant conférences et ateliers, autour des thèmes de la conception web et de ses bonnes pratiques.</p>
+					<p class="event-place" itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
+						à <span itemprop="addressLocality">Strasbourg</span>
+						<meta itemprop="postalCode" content="67000">
+					</p>
+					<meta>
+				</div>
+				<div class="summary">
+					<p itemprop="description">La <strong itemprop="name">KiwiParty</strong> est un événement <strong>gratuit à but non-lucratif</strong> organisé par l'agence web strasbourgeoise <strong>Alsacréations</strong> réunissant conférences et ateliers, autour des thèmes de la conception web et de ses bonnes pratiques.</p>
+				</div>
+			</div><!--.grid3-->
+		</div><!--.inside-->
+	</header>
+
+	<nav id="navigation" role="navigation" class="main-nav line">
+		<ul class="inside">
+			<li class="inbl"><a href="#" class="inbl pam icon-location">Le lieu</a></li>
+			<li class="inbl"><a href="#" class="inbl pam icon-mic">Le Programme</a></li>
+			<li class="inbl"><a href="#" class="inbl pam icon-bubbles2">Les orateurs</a></li>
+			<li class="inbl"><a href="#" class="inbl pam icon-medal">Nos sponsors</a></li>
+			<li class="inbl alt-nav"><a href="#" class="inbl pam icon-ticket">Inscription</a></li>
+		</ul>
+	</nav>
+
+	<div id="main" role="main" class="line">
+		<div class="inside">
+			<p class="home-quote-title">C’est quoi la KiwiParty ?</p>
+			<blockquote class="home-quote">
+				<p><strong>La conférence Web gratuite</strong> de l’année qui vous donne rendez-vous à <strong>Strasbourg</strong> pour une journée dédiée à la qualité, la performance et l’accessibilité de vos projets Web.</p>
+			</blockquote>
+			
+			<p class="home-couple-btns">
+				<a href="#" class="btn-primary icon-mic">Voir le programme</a>
+				<a href="#" class="btn-secondary icon-ticket">Inscription</a>
+			</p>
+			<p class="twitter-cta icon-twitter">
+				Plus d'info&nbsp;? Suivez <a href="https://twitter.com/hashtag/kiwiparty">#kiwiparty</a> et <a href="https://twitter.com/alsacreations">@alsacreations</a> sur Twitter
+			</p>
 		</div>
 
-	</header>
-	<div id="main" role="main" class="line pam">
-			<p class="">Yoo ch'ai lu dans les DNA que le Racing a encore perdu contre Oberschaeffolsheim. Verdammi et moi ch'avais donc parié deux knacks et une flammekueche. Ah so ? T'inquiète, ch'ai ramené du schpeck, du chambon, un kuglopf et du schnaps dans mon rucksack. Allez, s'guelt ! Wotch a kofee avec ton bibalaekaess et ta wurscht ? Yeuh non che suis au réchime, je ne mange plus que des Grumbeere light et che fais de la chym avec Chulien. Tiens, un rottznoz sur le comptoir.</p>
-			<p class="">Tu restes pour le lotto-owe ce soir, y'a baeckeoffe ? Yeuh non, merci vielmols mais che dois partir à la Coopé de Truchtersheim acheter des mänele et des rossbolla pour les gamins. Hopla tchao bissame ! Consectetur adipiscing elit</p>
+		<div class="flickr-photos">
+
+			<div class="inside">
+				<p class="photo-title start">Photos des éditions précédentes</p>
+				<p class="photo-flickr end"><a href="https://www.flickr.com/search/?q=kiwiparty">les photos sur <span class="flickr">flickr</span></a></p>
+			</div>
+		</div>
 	</div>
-	<footer id="footer" role="contentinfo" class="line pam txtcenter">
-		Lorem Elsass ipsum lacus leverwurscht Wurschtsalad mamsell Gal. gewurztraminer turpis, suspendisse commodo Oberschaeffolsheim ornare aliquam semper Miss Dahlias Mauris turpis sagittis kuglopf eleifend dignissim baeckeoffe geht's Richard Schirmeck mollis habitant schnaps ante et sit leo schpeck sit Salu bissame Salut bisamme varius quam. amet elementum nullam bissame bredele Heineken picon bière gal sed risus, condimentum Verdammi ch'ai ac réchime météor barapli s'guelt quam, non Christkindelsmärik blottkopf, Carola tellus rucksack vielmols, Gal !
+
+	<section class="main-news pam">
+		<div class="inside">
+			<h1>Actualités</h1>
+			<h2 class="visually-hidden">Dernière actualité de la KiwiParty</h2>
+
+			<article itemscope itemtype="http://schema.org/BlogPosting">
+				<time itemprop="datePublished" datetime="2015-02-9T09:23:00Z">Le 9 février 2015</time>
+
+				<h1 itemprop="name"><a href="#" itemprop="url">Le sous-titre des conférences 2014 est disponible</a></h1>
+
+				<div class="article-excerpt">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis turpis fermentum ornare mollis. Vestibulum feugiat rhoncus quam non dictum. Morbi ac nisl sem. Maecenas maximus, nisl sed vehicula mollis, tellus ex posuere eros, nec vehicula nisl neque in lorem. Nunc sed arcu vel tellus aliquam tincidunt.</p>
+				</div>
+
+				<p class="article-readmore"><a href="#">Lire la suite</a></p>
+
+			</article>
+		</div>
+	</section>
+
+
+	<footer id="footer" role="contentinfo" class="line pam txtcenter main-footer">
+		<div class="inside">
+		</div>
 	</footer>
 
 		<script>

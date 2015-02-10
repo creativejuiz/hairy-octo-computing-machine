@@ -1,7 +1,7 @@
 // Config file : variables, mixins, ...
 
 // font sizes
-$base-font-size	: 14px; // if "14px" then 1em = 14px
+$base-font-size	: 16px; // if "14px" then 1em = 14px
 $line-height	: 1.5; // equiv line-height 1.5
 $h1-size		: 3.2rem; // equiv "32px"
 $h2-size		: 2.8rem; // equiv "28px"
@@ -11,18 +11,27 @@ $h5-size		: 1.8rem; // equiv "18px"
 $h6-size		: 1.6rem; // equiv "16px"
 
 // font stacks
-$font-stack-common		: Helvetica, Arial, sans-serif; // common font
-$font-stack-headings	: Helvetica, Arial, sans-serif; // headings font
+$font-stack-common		: "source_sans_pro", Helvetica, Arial, sans-serif; // common font
+$font-stack-headings	: "merriweather", Helvetica, Arial, sans-serif; // headings font
 $font-stack-monospace	: Consolas, 'DejaVu Sans Mono', Courier, monospace; // monospace font
 $font-stack-universal	: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif; // universal stack
 
 // font colors
 $base-color					: #000; // text color on body and content
-$primary-color				: #000; // text color on primary elements
-$secondary-color			: #000; // text color on secondary elements
+$primary-color				: #a4ba27; // green
+$secondary-color			: #ec135a; // pink
+$tertiary-color				: #ffcc00; // yellow
 $headings-color				: #000; // text color on headings
 $base-color-link			: #333; // base links color
 $base-color-link-hover		: #000; // base hovered/focused links color
+$darkgray 					: #343434; // some title
+$middleuppergray 			:#595656; // lol
+$middlegray 				: #858585; // icon nav for example
+$gray 						: #9b9999; // home quote
+
+$twitter 					: #00aced; // twitter
+$flickr-pink 				: #ff0084;
+$flickr-blue 				: #0063db;
 
 // backgrounds
 $base-background		: #fff; // body background color

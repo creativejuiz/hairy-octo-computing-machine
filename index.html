@@ -1,16 +1,10 @@
 <!doctype html>
-<!--[if lte IE 7]> <html class="no-js ie67 ie678" lang="fr"> <![endif]-->
-<!--[if IE 8]> <html class="no-js ie8 ie678" lang="fr"> <![endif]-->
 <!--[if IE 9]> <html class="no-js ie9" lang="fr"> <![endif]-->
 <!--[if gt IE 9]> <!--><html class="no-js" lang="fr"> <!--<![endif]-->
 <head>
 		<meta charset="UTF-8">
-		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 		<title>KiwiParty 2015 by Alsacréations</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!--[if lt IE 9]>
-		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
 		<link rel="stylesheet" href="css/style.min.css" media="all">
 </head>
 <body>
@@ -18,7 +12,10 @@
 	<header id="header" role="banner" class="main-header line pam">
 		<div class="inside grid">
 			<div class="grid3" itemscope itemtype="http://schema.org/Event">
-				<a itemprop="url" href="http://kiwiparty.fr" title="KiwiParty by Alsacréations"><img itemprop="image" src="img/logo-kiwiparty.svg" alt="Logo KiwiParty"></a>
+				<div class="logo">
+					<a itemprop="url" href="http://kiwiparty.fr" title="KiwiParty by Alsacréations"><img itemprop="image" src="img/logo-kiwiparty.svg" alt="Logo KiwiParty"></a>
+					<p class="tagline">Le Web sans pépin</p>
+				</div>
 				<div class="envent-date-place">
 					<img src="img/calendar.svg" height="97" width="97" alt="" class="header-cal">
 					<time datetime="2015-06-19T09:00:00Z" itemprop="startDate" class="event-date">
@@ -51,6 +48,14 @@
 			<li class="inbl alt-nav"><a href="#" class="inbl pam icon-ticket">Inscription</a></li>
 		</ul>
 	</nav>
+	<div class="flickr-photos">
+		<div class="flickr-texts">
+			<div class="inside">
+				<p class="photo-title start">Photos des éditions précédentes</p>
+				<p class="photo-flickr end"><a href="https://www.flickr.com/search/?q=kiwiparty">les photos sur <span class="flickr">flickr</span></a></p>
+			</div>
+		</div>
+	</div>
 
 	<div id="main" role="main" class="line">
 		<div class="inside">
@@ -67,39 +72,217 @@
 				Plus d'info&nbsp;? Suivez <a href="https://twitter.com/hashtag/kiwiparty">#kiwiparty</a> et <a href="https://twitter.com/alsacreations">@alsacreations</a> sur Twitter
 			</p>
 		</div>
-
-		<div class="flickr-photos">
-
-			<div class="inside">
-				<p class="photo-title start">Photos des éditions précédentes</p>
-				<p class="photo-flickr end"><a href="https://www.flickr.com/search/?q=kiwiparty">les photos sur <span class="flickr">flickr</span></a></p>
-			</div>
-		</div>
 	</div>
 
 	<section class="main-news pam">
 		<div class="inside">
-			<h1>Actualités</h1>
-			<h2 class="visually-hidden">Dernière actualité de la KiwiParty</h2>
+			<h1 class="section-title">Actualités</h1>
+			<h2 class="section-sub-title visually-hidden">Dernière actualité de la KiwiParty</h2>
 
 			<article itemscope itemtype="http://schema.org/BlogPosting">
 				<time itemprop="datePublished" datetime="2015-02-9T09:23:00Z">Le 9 février 2015</time>
 
-				<h1 itemprop="name"><a href="#" itemprop="url">Le sous-titre des conférences 2014 est disponible</a></h1>
+				<h1 itemprop="name"><a href="#" itemprop="url" title="Lire la suite de l'article &quot;Le sous-titrage des conférences 2014 est disponible&quot;">Le sous-titrage des conférences 2014 est disponible</a></h1>
 
-				<div class="article-excerpt">
+				<div itemprop="description" class="article-excerpt">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis turpis fermentum ornare mollis. Vestibulum feugiat rhoncus quam non dictum. Morbi ac nisl sem. Maecenas maximus, nisl sed vehicula mollis, tellus ex posuere eros, nec vehicula nisl neque in lorem. Nunc sed arcu vel tellus aliquam tincidunt.</p>
 				</div>
 
-				<p class="article-readmore"><a href="#">Lire la suite</a></p>
+				<p class="article-readmore"><a href="#" title="Lire la suite de l'article &quot;Le sous-titrage des conférences 2014 est disponible&quot;">Lire la suite</a></p>
 
 			</article>
+
+			<h2 class="section-sub-title">Actualités précédentes</h2>
+
+			<ul class="articles-list">
+				<li><a href="#">KiwiParty, on remet ça&nbsp;?</a></li>
+				<li><a href="#">Suivez les conférences KiwiParty en audio</a></li>
+				<li><a href="#">Des stands pour nos sponsors&nbsp;!</a></li>
+				<li><a href="#">Paris Web, on remet ça&nbsp;?</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="schedule pam">
+		<div class="inside">
+
+			<h1 class="section-title">Le programme</h1>
+
+			<div class="line pam grid">
+				<div class="grid3">
+					<p class="schedule-time">
+						<span class="visually-hidden">à partir de</span>
+						8h30
+					</p>
+					<span class="schedule-image"></span>
+					<div class="schedule-description">
+						<p class="schedule-title">Accueil à l'Escarpe</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="line pam grid">
+				<div class="grid3">
+					<p class="schedule-time">
+						<span class="visually-hidden">à partir de</span>
+						9h00
+					</p>
+					<span class="schedule-image"></span>
+					<div class="schedule-description">
+						<p class="schedule-title">Introduction <span class="visually-hidden">de présentation de la KiwiParty 2015</span></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="line pam grid">
+				<div class="grid3">
+					<p class="schedule-time">
+						<span class="visually-hidden">à partir de</span>
+						9h30
+					</p>
+					<span class="schedule-image"><img src="img/laura.jpg" height="156" width="156" alt=""></span>
+					<div class="schedule-description">
+						<p lang="en_EN" class="schedule-title">Designing for accessibility</p>
+						<p class="schedule-author">Laura Kalbag</p>
+
+						<div class="schedule-content" lang="en_US">
+							<p>There are two dangerous myths when it comes to accessibility: 1, accessibility only affects a few users. 2, accessibility is something which is applied during development.</p>
+							<p>This talk will include guidelines for top accessible design considerations, examples of the mistakes designers make again and again, and tips to take away and use in your next project, making your interfaces a better, and more inclusive, experience.</p>		
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="line pam grid">
+				<div class="grid3">
+					<p class="schedule-time">
+						<span class="visually-hidden">à partir de</span>
+						10h00
+					</p>
+					<span class="schedule-image"><img src="img/raph.jpg" height="156" width="156" alt=""></span>
+					<div class="schedule-description">
+						<p class="schedule-title">Soyez révolutionnaire, utilisez CSS2</p>
+						<p class="schedule-author">Raphaël Gunther</p>
+
+						<div class="schedule-content">
+							<p>Parce que CSS3 c'est super, mais qu'on vit encore un peu dans le présent et que des pans entiers de CSS 2.1 ont été occultés en raison du dinosaure IE6. En attendant que tout le monde ait Internet Explorer 9 ou Firefox 4, voyons ce qu'on peut faire avec IE7 et IE8 en utilisant un langage CSS2 mal connu. </p>		
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="line pam grid line-alt">
+				<div class="grid3">
+					<p class="schedule-time">
+						<span class="visually-hidden">à partir de</span>
+						12h30
+					</p>
+					<span class="schedule-image"></span>
+					<div class="schedule-description">
+						<p class="schedule-title">Bièèèèères</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="line pam grid">
+				<div class="grid3">
+					<p class="schedule-time">
+						<span class="visually-hidden">à partir de</span>
+						14h00
+					</p>
+					<span class="schedule-image"><img src="img/laura.jpg" height="156" width="156" alt=""></span>
+					<div class="schedule-description">
+						<p lang="en_EN" class="schedule-title">Designing for accessibility</p>
+						<p class="schedule-author">Laura Kalbag</p>
+
+						<div class="schedule-content" lang="en_US">
+							<p>There are two dangerous myths when it comes to accessibility: 1, accessibility only affects a few users. 2, accessibility is something which is applied during development.</p>
+							<p>This talk will include guidelines for top accessible design considerations, examples of the mistakes designers make again and again, and tips to take away and use in your next project, making your interfaces a better, and more inclusive, experience.</p>		
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="line pam grid">
+				<div class="grid3">
+					<p class="schedule-time">
+						<span class="visually-hidden">à partir de</span>
+						14h30
+					</p>
+					<span class="schedule-image"><img src="img/raph.jpg" height="156" width="156" alt=""></span>
+					<div class="schedule-description">
+						<p class="schedule-title">Soyez révolutionnaire, utilisez CSS2</p>
+						<p class="schedule-author">Raphaël Gunther</p>
+
+						<div class="schedule-content">
+							<p>Parce que CSS3 c'est super, mais qu'on vit encore un peu dans le présent et que des pans entiers de CSS 2.1 ont été occultés en raison du dinosaure IE6. En attendant que tout le monde ait Internet Explorer 9 ou Firefox 4, voyons ce qu'on peut faire avec IE7 et IE8 en utilisant un langage CSS2 mal connu. </p>		
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sponsors">
+		<div class="inside">
+			<h1 class="section-title">Nos sponsors</h1>
+
+			<p class="sponsors-thanks">Merci à eux&nbsp;!</p>
+
+			<ul class="sponsors-list unstyled">
+				<li>
+					<a href="http://moo.com"><img src="img/moo.png" height="128" width="62" alt="Moo.com"></a>
+				</li>
+				<li>
+					<a href="http://eyrolles.com"><img src="img/eyrolles.png" height="128" width="220" alt="Eyrolles"></a>
+				</li>
+				<li>
+					<a href="http://tuto.com"><img src="img/tutocom.png" height="128" width="203" alt="Tuto.com"></a>
+				</li>
+				<li>
+					<a href="http://microsoft.com"><img src="img/microsoft.png" height="128" width="244" alt="Microsoft"></a>
+				</li>
+				<li>
+					<a href="http://studiometa.fr"><img src="img/studio-meta.png" height="128" width="142" alt="Studio Meta"></a>
+				</li>
+				<li>
+					<a href="http://video2brain.com"><img src="img/video2brain.png" height="128" width="205" alt="Video2brain"></a>
+				</li>
+			</ul>
 		</div>
 	</section>
 
 
-	<footer id="footer" role="contentinfo" class="line pam txtcenter main-footer">
-		<div class="inside">
+	<footer id="footer" role="contentinfo" class="line pam main-footer">
+		<div class="inside grid">
+			<div class="grid3">
+				<div class="footer-contact">
+					<p class="footer-title">Restons en contact</p>
+					<p>
+						<a href="https://twitter.com/alsacreations" class="icon-twitter"><span class="visually-hidden">sur Twitter</span></a>
+						<a href="https://facebook.com/alsacreations" class="icon-facebook"><span class="visually-hidden">sur Facebook</span></a>
+					</p>
+				</div>
+
+				<div class="footer-history">
+					<p class="footer-title">Retrouvez les anciennes éditions</p>
+					<ul class="history-go-1">
+						<li><a href="http://2010.kiwiparty.fr">2010</a></li>
+						<li><a href="http://2011.kiwiparty.fr">2011</a></li>
+						<li><a href="http://2012.kiwiparty.fr">2012</a></li>
+						<li><a href="http://2013.kiwiparty.fr">2013</a></li>
+						<li><a href="http://2014.kiwiparty.fr">2014</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-exit">
+					<p class="footer-summary">La KiwiParty est un événement à but non-lucratif organisé par l'équipe de l'agence web Alsacréations.</p>
+
+					<p class="start"><a href="#">Mentions légales</a></p>
+					<p class="end"><a href="http://alsacreations.fr" title="Événement Web créé par l'agence Web Alsacréations"><img src="img/alsacreations.svg" width="183" height="34" alt="Alsacréations"></a></p>
+				</div>
+			</div>
+
 		</div>
 	</footer>
 

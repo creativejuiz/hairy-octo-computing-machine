@@ -1315,54 +1315,54 @@ hr {
 
 @font-face {
   font-family: "merriweather";
-  src: url('/kiwiparty/css/fonts/merriweather-regular.eot');
-  src: url('/kiwiparty/css/fonts/merriweather-regular.eot?#iefix') format('embedded-opentype'), url('/kiwiparty/css/fonts/merriweather-regular.woff2') format('woff2'), url('/kiwiparty/css/fonts/merriweather-regular.woff') format('woff'), url('/kiwiparty/css/fonts/merriweather-regular.ttf') format('truetype'), url('/kiwiparty/css/fonts/merriweather-regular.svg#merriweatherregular') format('svg');
+  src: url('../../css/fonts/merriweather-regular.eot');
+  src: url('../../css/fonts/merriweather-regular.eot?#iefix') format('embedded-opentype'), url('../../css/fonts/merriweather-regular.woff2') format('woff2'), url('../../css/fonts/merriweather-regular.woff') format('woff'), url('../../css/fonts/merriweather-regular.ttf') format('truetype'), url('../../css/fonts/merriweather-regular.svg#merriweatherregular') format('svg');
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: "merriweather";
-  src: url('/kiwiparty/css/fonts/merriweather-italic.eot');
-  src: url('/kiwiparty/css/fonts/merriweather-italic.eot?#iefix') format('embedded-opentype'), url('/kiwiparty/css/fonts/merriweather-italic.woff2') format('woff2'), url('/kiwiparty/css/fonts/merriweather-italic.woff') format('woff'), url('/kiwiparty/css/fonts/merriweather-italic.ttf') format('truetype'), url('/kiwiparty/css/fonts/merriweather-italic.svg#merriweatheritalic') format('svg');
+  src: url('../../css/fonts/merriweather-italic.eot');
+  src: url('../../css/fonts/merriweather-italic.eot?#iefix') format('embedded-opentype'), url('../../css/fonts/merriweather-italic.woff2') format('woff2'), url('../../css/fonts/merriweather-italic.woff') format('woff'), url('../../css/fonts/merriweather-italic.ttf') format('truetype'), url('../../css/fonts/merriweather-italic.svg#merriweatheritalic') format('svg');
   font-weight: 400;
   font-style: italic; }
 
 @font-face {
   font-family: "merriweather";
-  src: url('/kiwiparty/css/fonts/merriweather-bold.eot');
-  src: url('/kiwiparty/css/fonts/merriweather-bold.eot?#iefix') format('embedded-opentype'), url('/kiwiparty/css/fonts/merriweather-bold.woff2') format('woff2'), url('/kiwiparty/css/fonts/merriweather-bold.woff') format('woff'), url('/kiwiparty/css/fonts/merriweather-bold.ttf') format('truetype'), url('/kiwiparty/css/fonts/merriweather-bold.svg#merriweatherbold') format('svg');
+  src: url('../../css/fonts/merriweather-bold.eot');
+  src: url('../../css/fonts/merriweather-bold.eot?#iefix') format('embedded-opentype'), url('../../css/fonts/merriweather-bold.woff2') format('woff2'), url('../../css/fonts/merriweather-bold.woff') format('woff'), url('../../css/fonts/merriweather-bold.ttf') format('truetype'), url('../../css/fonts/merriweather-bold.svg#merriweatherbold') format('svg');
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
   font-family: "merriweather";
-  src: url('/kiwiparty/css/fonts/merriweather-bolditalic.eot');
-  src: url('/kiwiparty/css/fonts/merriweather-bolditalic.eot?#iefix') format('embedded-opentype'), url('/kiwiparty/css/fonts/merriweather-bolditalic.woff2') format('woff2'), url('/kiwiparty/css/fonts/merriweather-bolditalic.woff') format('woff'), url('/kiwiparty/css/fonts/merriweather-bolditalic.ttf') format('truetype'), url('/kiwiparty/css/fonts/merriweather-bolditalic.svg#merriweatherbold_italic') format('svg');
+  src: url('../../css/fonts/merriweather-bolditalic.eot');
+  src: url('../../css/fonts/merriweather-bolditalic.eot?#iefix') format('embedded-opentype'), url('../../css/fonts/merriweather-bolditalic.woff2') format('woff2'), url('../../css/fonts/merriweather-bolditalic.woff') format('woff'), url('../../css/fonts/merriweather-bolditalic.ttf') format('truetype'), url('../../css/fonts/merriweather-bolditalic.svg#merriweatherbold_italic') format('svg');
   font-weight: 700;
   font-style: italic; }
 
 @font-face {
   font-family: "source_sans_pro";
-  src: url('/kiwiparty/css/fonts/sourcesanspro-regular.eot');
-  src: url('/kiwiparty/css/fonts/sourcesanspro-regular.eot?#iefix') format('embedded-opentype'), url('/kiwiparty/css/fonts/sourcesanspro-regular.woff2') format('woff2'), url('/kiwiparty/css/fonts/sourcesanspro-regular.woff') format('woff'), url('/kiwiparty/css/fonts/sourcesanspro-regular.ttf') format('truetype'), url('/kiwiparty/css/fonts/sourcesanspro-regular.svg#source_sans_proregular') format('svg');
+  src: url('../../css/fonts/sourcesanspro-regular.eot');
+  src: url('../../css/fonts/sourcesanspro-regular.eot?#iefix') format('embedded-opentype'), url('../../css/fonts/sourcesanspro-regular.woff2') format('woff2'), url('../../css/fonts/sourcesanspro-regular.woff') format('woff'), url('../../css/fonts/sourcesanspro-regular.ttf') format('truetype'), url('../../css/fonts/sourcesanspro-regular.svg#source_sans_proregular') format('svg');
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: "source_sans_pro";
-  src: url('/kiwiparty/css/fonts/sourcesanspro-semibold.eot');
-  src: url('/kiwiparty/css/fonts/sourcesanspro-semibold.eot?#iefix') format('embedded-opentype'), url('/kiwiparty/css/fonts/sourcesanspro-semibold.woff2') format('woff2'), url('/kiwiparty/css/fonts/sourcesanspro-semibold.woff') format('woff'), url('/kiwiparty/css/fonts/sourcesanspro-semibold.ttf') format('truetype'), url('/kiwiparty/css/fonts/sourcesanspro-semibold.svg#source_sans_prosemibold') format('svg');
+  src: url('../../css/fonts/sourcesanspro-semibold.eot');
+  src: url('../../css/fonts/sourcesanspro-semibold.eot?#iefix') format('embedded-opentype'), url('../../css/fonts/sourcesanspro-semibold.woff2') format('woff2'), url('../../css/fonts/sourcesanspro-semibold.woff') format('woff'), url('../../css/fonts/sourcesanspro-semibold.ttf') format('truetype'), url('../../css/fonts/sourcesanspro-semibold.svg#source_sans_prosemibold') format('svg');
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
   font-family: "kiwiparty";
-  src: url('/kiwiparty/css/fonts/kiwiparty.eot?iejfmu');
-  src: url('/kiwiparty/css/fonts/kiwiparty.eot?#iefixiejfmu') format('embedded-opentype'), url('/kiwiparty/css/fonts/kiwiparty.woff?iejfmu') format('woff'), url('/kiwiparty/css/fonts/kiwiparty.ttf?iejfmu') format('truetype'), url('/kiwiparty/css/fonts/kiwiparty.svg?iejfmu#kiwiparty') format('svg');
+  src: url('../../css/fonts/kiwiparty.eot?iejfmu');
+  src: url('../../css/fonts/kiwiparty.eot?#iefixiejfmu') format('embedded-opentype'), url('../../css/fonts/kiwiparty.woff?iejfmu') format('woff'), url('../../css/fonts/kiwiparty.ttf?iejfmu') format('truetype'), url('../../css/fonts/kiwiparty.svg?iejfmu#kiwiparty') format('svg');
   font-weight: normal;
   font-style: normal; }
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
+[class^="icon-"]:before, [class*=" icon-"]:before, h1:before {
   display: inline-block;
   font-family: "kiwiparty";
   speak: none;
@@ -1375,7 +1375,7 @@ hr {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.icon-pepins:before {
+.icon-pepins:before, .section-title:before {
   content: "\e600"; }
 
 .icon-medal:before {
@@ -1444,6 +1444,47 @@ hr {
 .icon-calendar:before {
   content: "\e604"; }
 
+::-moz-selection {
+  background: #ec135a;
+  color: #fff; }
+
+::selection {
+  background: #ec135a;
+  color: #fff; }
+
+a {
+  transition: color 0.3s, background 0.3s; }
+
+.s-title, .section-title, .footer-title {
+  position: relative; }
+  .s-title:after, .section-title:after, .footer-title:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 54px;
+    background: #ffcc00; }
+
+.section-title {
+  display: inline-block;
+  padding: 3em 0 0.7em 0;
+  font-size: 44.8px;
+  font-size: 2.8rem; }
+  .section-title:before {
+    position: absolute;
+    top: 0.1em;
+    right: -0.55em;
+    font-size: 192px;
+    font-size: 12rem;
+    color: rgba(0, 0, 0, 0.075);
+    line-height: 1; }
+
+.section-sub-title {
+  margin-top: 2em;
+  font-size: 30.4px;
+  font-size: 1.9rem; }
+
 .inside {
   max-width: 1200px;
   margin: 0 auto;
@@ -1457,7 +1498,7 @@ hr {
   .grid3 > :last-child {
     padding-right: 0; }
 
-.title, .event-place, [class^="home-quote"], .photo-title, .photo-flickr a {
+.title, .section-title, .section-sub-title, .tagline, .event-place, [class^="home-quote"], .flickr-texts a, .photo-title, .schedule .schedule-time, .schedule .schedule-author, .sponsors-thanks, .footer-title, .footer-summary {
   font-family: "merriweather", Helvetica, Arial, sans-serif;
   font-style: italic; }
 
@@ -1469,8 +1510,21 @@ hr {
     color: #343434; }
     .main-header .summary strong {
       color: #a4ba27; }
+  .main-header .logo {
+    width: 37.33%; }
+
+.tagline {
+  font-size: 26.4px;
+  font-size: 1.65rem;
+  color: #9b9999;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  margin-top: -1.25em;
+  margin-left: 36.5%; }
 
 .envent-date-place {
+  width: 29.33%;
+  padding-left: 0;
   text-align: center; }
 
 .header-cal, .event-date, .event-place {
@@ -1489,16 +1543,16 @@ hr {
     display: block;
     /* IE fix */
     content: "";
-    width: 40px;
+    width: 44px;
     border-bottom: 1px solid CurrentColor;
     opacity: 0.5; }
   .event-place:before {
-    margin-left: -95px; }
+    margin-left: -99px; }
   .event-place:after {
     margin-left: 58px; }
 
 .header-cal {
-  margin-right: 10px; }
+  margin-right: 18px; }
 
 .event-date {
   color: #595656;
@@ -1520,10 +1574,10 @@ hr {
 
 .main-nav {
   margin-top: 1.75em;
-  background: #343434; }
+  background: #F2F2F2; }
   .main-nav a {
-    padding: 0.85em 1.2em;
-    color: white;
+    padding: 0.85em 1.4em;
+    color: #343434;
     text-decoration: none;
     font-weight: 500;
     font-size: 30.4px;
@@ -1534,22 +1588,27 @@ hr {
       font-size: 36px;
       font-size: 2.25rem;
       color: #9b9999; }
+    .main-nav a:hover, .main-nav a:focus {
+      color: #F2F2F2;
+      background: #343434; }
   .main-nav .alt-nav {
     float: right;
     background: #ec135a; }
+    .main-nav .alt-nav a {
+      color: white; }
     .main-nav .alt-nav a:before {
       color: white; }
 
 .home-quote-title.home-quote-title {
   margin-top: 2em;
-  font-size: 40.8px;
-  font-size: 2.55rem; }
+  font-size: 44px;
+  font-size: 2.75rem; }
 
 .home-quote {
   color: #9b9999;
   padding-left: 0;
-  font-size: 64px;
-  font-size: 4rem; }
+  font-size: 68px;
+  font-size: 4.25rem; }
   .home-quote:before {
     display: none; }
   .home-quote strong {
@@ -1561,7 +1620,7 @@ hr {
 [class^="btn-"] {
   display: inline-block;
   vertical-align: top;
-  padding: 0.75em 2em;
+  padding: 0.8em 2em;
   text-decoration: none;
   color: white;
   background: #9b9999;
@@ -1579,12 +1638,18 @@ hr {
 
 .btn-primary {
   background: #a4ba27; }
+  .btn-primary:hover, .btn-primary:focus {
+    color: #FFF;
+    background: #889a20; }
 
 .btn-secondary {
   background: #ec135a; }
+  .btn-secondary:hover, .btn-secondary:focus {
+    color: #FFF;
+    background: #c9104c; }
 
 .twitter-cta {
-  margin-top: 3em;
+  margin: 3em 0;
   color: #00aced; }
   .twitter-cta a {
     color: inherit; }
@@ -1595,20 +1660,29 @@ hr {
     vertical-align: -0.25em; }
 
 .flickr-photos {
-  margin: 4em 0;
-  padding-top: 225px;
+  position: relative;
+  margin: 0;
+  padding-top: 200px;
   background: url("../../img/flickr-photos.jpg") scroll 0 0 repeat-x; }
   .flickr-photos p {
     margin-top: 0; }
 
-.photo-title {
-  font-weight: 700; }
+.flickr-texts {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 6px 0 5px;
+  font-size: 22.4px;
+  font-size: 1.4rem;
+  color: #FFF;
+  background: rgba(0, 0, 0, 0.75); }
+  .flickr-texts a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 700; }
 
-.photo-flickr a {
-  font-size: 24px;
-  font-size: 1.5rem;
-  color: #9b9999;
-  text-decoration: none;
+.photo-title {
   font-weight: 700; }
 
 .flickr {
@@ -1629,5 +1703,178 @@ hr {
 
 .main-news {
   background: #F8F8F8; }
+  .main-news article {
+    padding-top: 1.8em; }
+    .main-news article h1 {
+      font-size: 38.4px;
+      font-size: 2.4rem;
+      margin: 0 0 0.5em 0; }
+    .main-news article a {
+      text-decoration: none; }
+    .main-news article time {
+      display: block;
+      margin-bottom: 0.2em;
+      color: #9b9999;
+      font-size: 22.4px;
+      font-size: 1.4rem;
+      font-weight: 500; }
+
+.article-readmore {
+  padding-bottom: 2.5em; }
+  .article-readmore a {
+    color: #ec135a;
+    font-weight: 500; }
+    .article-readmore a:hover, .article-readmore a:focus {
+      color: #bd0f48; }
+    .article-readmore a:focus {
+      border-bottom: 1px solid #bd0f48; }
+
+.articles-list {
+  padding: 0;
+  margin: 1.25em 0 4em;
+  list-style: none; }
+  .articles-list li {
+    display: block;
+    margin: 0.1em 0; }
+    .articles-list li:before {
+      content: "—";
+      margin-right: 0.45em; }
+  .articles-list a {
+    text-decoration: underline; }
+    .articles-list a:hover, .articles-list a:focus {
+      color: #ec135a; }
+
+/*
+ * == Programme
+ */
+.schedule .line {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .schedule .line + .line {
+    border-top: 1px solid #F2F2F2; }
+  .schedule .line-alt {
+    background: #F8F8F8; }
+    .schedule .line-alt .schedule-title {
+      font-size: 64px;
+      font-size: 4rem;
+      color: #a4ba27; }
+.schedule .schedule-time {
+  font-size: 32px;
+  font-size: 2rem;
+  width: 10%;
+  font-weight: 700;
+  color: #ec135a; }
+.schedule .schedule-image {
+  width: 20%; }
+.schedule .schedule-description {
+  width: 70%; }
+.schedule .schedule-title {
+  font-family: "merriweather", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 39.2px;
+  font-size: 2.45rem; }
+.schedule .schedule-image img {
+  display: block;
+  border-radius: 50%;
+  border: 4px solid #FFF;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.125); }
+.schedule .schedule-author {
+  margin-top: 0;
+  font-size: 30.4px;
+  font-size: 1.9rem;
+  color: #9b9999;
+  font-weight: 700; }
+.schedule .schedule-content {
+  position: relative;
+  padding-top: 3em; }
+  .schedule .schedule-content:before {
+    position: absolute;
+    content: "";
+    top: 15px;
+    left: 0;
+    height: 5px;
+    width: 54px;
+    background: #a4ba27; }
+
+/*
+ * == Sponsors
+ */
+.sponsors-thanks {
+  text-align: center;
+  color: #858585;
+  font-size: 40px;
+  font-size: 2.5rem;
+  font-weight: 700; }
+
+.sponsors-list {
+  margin: 1.8em 0 5em;
+  text-align: center; }
+  .sponsors-list li {
+    display: inline-block;
+    margin: 0 3em;
+    vertical-align: middle; }
+
+/*
+  * == Main Footer
+  */
+.main-footer {
+  padding-top: 3em;
+  padding-bottom: 5em;
+  background: #343434;
+  color: #FFF; }
+  .main-footer a {
+    font-family: "merriweather", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: inherit; }
+  .main-footer [class^="icon-"] {
+    font-size: 56px;
+    font-size: 3.5rem; }
+  .main-footer [class^="icon-"] + [class^="icon-"] {
+    margin-left: 0.45em; }
+  .main-footer .icon-twitter:hover, .main-footer .icon-twitter:focus {
+    color: #00aced; }
+  .main-footer .icon-facebook {
+    vertical-align: 2px; }
+  .main-footer .icon-facebook:hover, .main-footer .icon-facebook:focus {
+    color: #3b5998; }
+
+.footer-contact {
+  width: 26.6%; }
+
+.footer-history {
+  width: 40%; }
+
+.footer-title {
+  padding-bottom: 0.55em;
+  margin-bottom: 0.6em;
+  font-size: 43.2px;
+  font-size: 2.7rem;
+  font-weight: 700; }
+
+.history-go-1 {
+  padding: 0; }
+  .history-go-1 li {
+    display: inline-block;
+    width: 35%;
+    list-style: none; }
+    .history-go-1 li:before {
+      content: "—";
+      margin-right: 5px;
+      color: inherit; }
+  .history-go-1 a {
+    text-decoration: none; }
+
+.footer-summary {
+  padding-top: 0.65em;
+  font-size: 28px;
+  font-size: 1.75rem;
+  font-weight: 700; }
+
+.footer-exit {
+  padding-right: 0; }
+  .footer-exit .start {
+    margin-top: 1.5em; }
+    .footer-exit .start a {
+      color: #9b9999; }
 
 /*# sourceMappingURL=style.css.map */

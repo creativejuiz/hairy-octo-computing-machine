@@ -1936,7 +1936,8 @@ a {
   .schedule .schedule-time {
     width: 100%; }
   .schedule .schedule-image {
-    width: 100%; }
+    width: 100%;
+    margin: 0.4em 0 1em; }
   .schedule .schedule-description {
     width: 100%; }
   .schedule .line-alt p {

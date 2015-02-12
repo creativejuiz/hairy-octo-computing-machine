@@ -1939,6 +1939,8 @@ a {
     width: 100%; }
   .schedule .schedule-description {
     width: 100%; }
+  .schedule .line-alt p {
+    text-align: center; }
 
   .main-footer .grid3 {
     margin: 0; }

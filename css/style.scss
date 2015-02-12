@@ -624,6 +624,7 @@ a {
  }
 
  .sponsors-list {
+ 	padding-left: 0;
  	margin: 1.8em 0 5em;
  	text-align: center;
  	li {
@@ -733,19 +734,44 @@ a {
 	.inside {
 		padding: 0 20px;
 		
-		.main-nav & {
+		.main-nav &,
+		.schedule &,
+		.main-news & {
 			padding: 0;
 		}
 	}
 }
+
+@media (max-width: 1190px) and (min-width:830px), (max-width: 500px) {
+	.footer-exit {
+		.start, .end {
+			float: none;
+			margin-top: .75em;
+		}
+	}
+}
+
 @media (max-width:980px) {
 	.tagline {
 		@include rem(1.4);
 	}
 }
+
 @media (max-width:920px) {
 	.main-nav a {
 		@include rem(1.5);
+	}
+
+	.schedule {
+		.schedule-time {
+			width: 15%;
+		}
+		.schedule-image {
+			width: 30%;	
+		}
+		.schedule-description {
+			width: 55%;
+		}
 	}
 }
 
@@ -764,6 +790,42 @@ a {
 		}
 	}
 }
+
+@media (max-width: 830px) {
+	.schedule {
+		.line.pam {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.grid3 { 
+			margin: 0;
+			& > * {
+				padding: 0;
+			}
+		}
+		.schedule-time {
+			width: 100%;
+		}
+		.schedule-image {
+			width: 100%;	
+		}
+		.schedule-description {
+			width: 100%;
+		}
+	}
+
+	.main-footer {
+		.grid3 {
+			margin: 0;
+			& > * {
+				width: 100%;
+				padding: 0;
+				margin: 0 0 2em;
+			}
+		}
+	}
+}
+
 @media (max-width:780px) {
 	.main-nav {
 		li {
@@ -803,6 +865,31 @@ a {
 			@include rem(2);
 		}
 	}
+	.twitter-cta:before {
+		float: left;
+	}
+
+	.sponsors-list {
+		li {
+			margin: 0 1em;
+		}
+	}
+}
+
+@media (max-width: 500px) {
+
+	.home-quote-title.home-quote-title {
+		@include rem(2.2);
+	}
+	.home-quote {
+		@include rem(3.4);
+	}
+
+	[class^="btn-"] + [class^="btn-"] {
+		margin-top: .4em;
+		margin-left: 0;
+	}
+	
 }
 
 @media (max-width:460px) {
@@ -816,6 +903,13 @@ a {
 			@include rem(1.5);
 		}
 	}
+
+	.flickr-texts {
+		.start, .end {
+			float: none;
+		}
+	}
+
 }
 
 @media (max-width:340px) {

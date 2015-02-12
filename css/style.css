@@ -1808,6 +1808,7 @@ a {
   font-weight: 700; }
 
 .sponsors-list {
+  padding-left: 0;
   margin: 1.8em 0 5em;
   text-align: center; }
   .sponsors-list li {
@@ -1884,8 +1885,14 @@ a {
 @media (max-width: 1210px) {
   .inside {
     padding: 0 20px; }
-    .main-nav .inside {
+    .main-nav .inside, .schedule .inside, .main-news .inside {
       padding: 0; }
+ }
+
+@media (max-width: 1190px) and (min-width: 830px), (max-width: 500px) {
+  .footer-exit .start, .footer-exit .end {
+    float: none;
+    margin-top: 0.75em; }
  }
 
 @media (max-width: 980px) {
@@ -1898,6 +1905,13 @@ a {
   .main-nav a {
     font-size: 24px;
     font-size: 1.5rem; }
+
+  .schedule .schedule-time {
+    width: 15%; }
+  .schedule .schedule-image {
+    width: 30%; }
+  .schedule .schedule-description {
+    width: 55%; }
  }
 
 @media (max-width: 870px) {
@@ -1909,6 +1923,29 @@ a {
     width: 100%;
     padding-top: 2em;
     text-align: center; }
+ }
+
+@media (max-width: 830px) {
+  .schedule .line.pam {
+    padding-left: 0;
+    padding-right: 0; }
+  .schedule .grid3 {
+    margin: 0; }
+    .schedule .grid3 > * {
+      padding: 0; }
+  .schedule .schedule-time {
+    width: 100%; }
+  .schedule .schedule-image {
+    width: 100%; }
+  .schedule .schedule-description {
+    width: 100%; }
+
+  .main-footer .grid3 {
+    margin: 0; }
+    .main-footer .grid3 > * {
+      width: 100%;
+      padding: 0;
+      margin: 0 0 2em; }
  }
 
 @media (max-width: 780px) {
@@ -1938,6 +1975,26 @@ a {
     .main-header .tagline {
       font-size: 32px;
       font-size: 2rem; }
+
+  .twitter-cta:before {
+    float: left; }
+
+  .sponsors-list li {
+    margin: 0 1em; }
+ }
+
+@media (max-width: 500px) {
+  .home-quote-title.home-quote-title {
+    font-size: 35.2px;
+    font-size: 2.2rem; }
+
+  .home-quote {
+    font-size: 54.4px;
+    font-size: 3.4rem; }
+
+  [class^="btn-"] + [class^="btn-"] {
+    margin-top: 0.4em;
+    margin-left: 0; }
  }
 
 @media (max-width: 460px) {
@@ -1948,6 +2005,9 @@ a {
   .main-nav a {
     font-size: 24px;
     font-size: 1.5rem; }
+
+  .flickr-texts .start, .flickr-texts .end {
+    float: none; }
  }
 
 @media (max-width: 340px) {
